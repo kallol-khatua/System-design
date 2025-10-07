@@ -11,6 +11,6 @@ public class ChickenPepperoni extends ToppingDecorator {
 
     @Override
     public String getDescription() {
-        return this.pizza.getDescription() + ", Chicken pepperoni";
+        return this.pizza.getDescription() + " + Chicken pepperoni";
     }
 }

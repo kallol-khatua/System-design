@@ -11,7 +11,7 @@ public class ExtraCheese extends ToppingDecorator {
 
     @Override
     public String getDescription() {
-        return this.pizza.getDescription() + ", Extra Cheese";
+        return this.pizza.getDescription() + " + Extra Cheese";
     }
 
 }

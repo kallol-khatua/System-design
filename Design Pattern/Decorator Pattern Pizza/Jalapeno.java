@@ -11,6 +11,6 @@ public class Jalapeno extends ToppingDecorator {
 
     @Override
     public String getDescription() {
-        return this.pizza.getDescription() + ", jalapeno";
+        return this.pizza.getDescription() + " + jalapeno";
     }
 }
